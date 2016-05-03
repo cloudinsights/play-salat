@@ -20,3 +20,8 @@ services:
   - mongodb
 
 sudo: false
+
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.ivy2
